@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>
+  function back(){
+    location.replace("index.html")
+  }
+  function hc(){
+    location.replace("https://top.gg/bot/709733907053936712")
+  }
+</script>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  /*border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;*/
+  text-decoration: none;
+  display: inline-block;
+  background-color: dimgray;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.button:hover {
+  background-color: #353839;
+  color: lightblue;
+  transition: 0.5s ease;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>About Us</h1>
+  <p>Hey! we are the ... devs, here is our wonderful team</p>
+  <p>These are the people who did the hard work so that you could enjoy.</p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="samarth.png" alt="Sammy" style="width:40%">
+      <div class="container">
+        <h2>Sammy Sins</h2>
+        <p class="title">Python Developer</p>
+        <p>Hello there! I am the creater of the Among us Unofficial bot. Join the support server and feel free to contact me!</p>
+        <p>Discord : @Sammy Sins#7295</p>
+        <p><button class="button" onclick= "back()">Back to Among Us Unofficial</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="harsh.png" alt="Shadow" style="width:40%">
+      <div class="container">
+        <h2>ShadowWarriorPro</h2>
+        <p class="title">JS/TS Developer</p>
+        <p>Hey! I am the developer of the Hand Cricketer bot. It is awesome isn't it?</p>
+        <p>Discord : @ShadowWarriorPro#3003</p>
+        <p><button class="button" onclick="hc()">Jump to Hand Cricketer</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- <div class="column">
+    <div class="card">
+      <img src="/w3images/team3.jpg" alt="John" style="width:100%">
+      <div class="container">
+        <h2>John Doe</h2>
+        <p class="title">Designer</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>john@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+ -->
+</body>
+</html>
